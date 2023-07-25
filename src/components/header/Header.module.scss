@@ -1,0 +1,151 @@
+@media (width: 1440px) {
+  .header {
+    margin-top: 42px;
+  }
+  .nav,
+  .navCertification {
+    margin-right: 30px;
+    color: var(--light-text, #e4e5ea);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .navContainer {
+    margin-left: 27px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .description {
+    color: #e4e5ea;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 10px;
+  }
+  .descriptionContainer {
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 1441px) {
+  .header {
+    display: flex;
+  }
+  .nav,
+  .navCertification {
+    margin-right: 30px;
+    color: var(--light-text, #e4e5ea);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .navContainer {
+    margin-left: 27px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .description {
+    color: #e4e5ea;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 10px;
+  }
+  .descriptionContainer {
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 660px) {
+  .header {
+    height: 55px;
+    background-color: black;
+  }
+
+  .navPhone,
+  .icon,
+  .logoContainer,
+  .logoTextContainer,
+  .welbexLogo,
+  .welbexText,
+  .description,
+  .container,
+  .navCertification {
+    display: none;
+  }
+  .nav {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .navContainer {
+    height: 100%;
+    width: 320px;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .description {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    size: 10px;
+    color: #e4e5ea;
+    text-align: left;
+    margin-top: 10px;
+  }
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav,
+.navCertification {
+  color: #e4e5ea;
+}
+
+.navPhone {
+  margin-left: 107px;
+  margin-right: 17px;
+  color: #e4e5ea;
+}
+
+.icon {
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.logoContainer {
+  display: flex;
+  margin-right: 52px;
+}
+.logoTextContainer {
+  display: flex;
+  margin-right: 52px;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.welbexLogo {
+}
+.welbexText {
+  margin-left: 8px;
+}

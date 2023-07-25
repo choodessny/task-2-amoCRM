@@ -1,0 +1,467 @@
+@media (min-width: 1441px) {
+  .contentContainer {
+    margin-top: 94px;
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+
+    justify-content: space-between;
+  }
+  .text {
+    margin-top: 30px;
+    text-align: left;
+  }
+  .descriptionContainer {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 15px;
+  }
+  .presentsContainer {
+    top: 308px;
+  }
+  .presentsContainerSecond {
+    top: 406px;
+  }
+  .presentsContainer,
+  .presentsContainerSecond {
+  }
+
+  .infoPresentsContaineiner {
+    justify-content: flex-end;
+  }
+  .infoPresents {
+    font-weight: 700;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .presentMobile,
+  .RedBallMobile,
+  .PurpleBallMobile,
+  .PurpleLightMobile,
+  .RedLightMobile,
+  .MobileList {
+    display: none;
+  }
+  .title {
+    font-size: 48px;
+    color: #e4e5ea;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .titleGradient {
+    font-size: 48px;
+    font-weight: 900;
+    background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%);
+  }
+  .infoPresentsGradient {
+    font-style: normal;
+
+    line-height: normal;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%);
+  }
+  .tagLine {
+    display: flex;
+    flex-direction: column;
+  }
+  .presentsContainer,
+  .presentsContainerSecond {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    gap: 31px;
+  }
+  .presentsContainer {
+    padding-top: 40px;
+  }
+  .presentsContainerSecond {
+    padding-top: 30px;
+    white-space: nowrap;
+  }
+  .present {
+    color: #e4e5ea;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .presentTitle {
+    color: var(--light-text, #e4e5ea);
+    text-align: right;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+  }
+}
+
+@media (width: 1440px) {
+  .contentContainer {
+    margin-top: 94px;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+  }
+  .text {
+    margin-top: 30px;
+    text-align: left;
+  }
+  .descriptionContainer {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    padding-left: 483px;
+    padding-top: 15px;
+  }
+  .presentsContainer {
+    top: 308px;
+  }
+  .presentsContainerSecond {
+    top: 406px;
+  }
+  .presentsContainer,
+  .presentsContainerSecond {
+  }
+
+  .infoPresentsContaineiner {
+    justify-content: flex-end;
+  }
+  .infoPresents {
+    font-weight: 700;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .presentMobile,
+  .RedBallMobile,
+  .PurpleBallMobile,
+  .PurpleLightMobile,
+  .RedLightMobile,
+  .MobileList {
+    display: none;
+  }
+  .title {
+    font-size: 48px;
+    color: #e4e5ea;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .titleGradient {
+    font-size: 48px;
+    font-weight: 900;
+    background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%);
+  }
+  .infoPresentsGradient {
+    font-style: normal;
+
+    line-height: normal;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%);
+  }
+  .tagLine {
+    display: flex;
+    flex-direction: column;
+  }
+  .presentsContainer,
+  .presentsContainerSecond {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    gap: 31px;
+  }
+  .presentsContainer {
+    padding-top: 40px;
+  }
+  .presentsContainerSecond {
+    padding-top: 30px;
+    white-space: nowrap;
+  }
+  .present {
+    color: #e4e5ea;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .presentTitle {
+    color: var(--light-text, #e4e5ea);
+    text-align: right;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 660px) {
+  .contentContainer {
+    width: 320px;
+    max-height: 441px;
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(
+      304.35% 148.2% at 3.2% 3.49%,
+      rgba(255, 246, 233, 0.1) 0%,
+      rgba(26, 29, 35, 0.1) 26.62%,
+      rgba(26, 29, 35, 0.1) 52.1%,
+      rgba(26, 29, 35, 0.01) 70.17%,
+      rgba(26, 29, 35, 0) 100%
+    );
+    backdrop-filter: blur(7.5px);
+  }
+  .tagLine {
+    padding-top: 40px;
+    margin-left: 14px;
+    font-family: Inter;
+  }
+  .text {
+    margin-top: 16px;
+    font-family: Inter;
+  }
+  .title {
+    font-size: 36px;
+    font-family: Inter;
+    font-weight: 400;
+    color: #e4e5ea;
+    text-align: left;
+  }
+
+  .descriptionContainer {
+    margin-top: 45px;
+    margin-left: 14px;
+    text-align: left;
+  }
+  .infoPresentsContainer {
+    justify-content: flex-start;
+  }
+  .present,
+  .presentTitle {
+    display: none;
+  }
+  .MobileList {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    list-style-type: none;
+    padding: 0%;
+    margin-left: 4px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+  .MobileList li {
+    font-family: Inter;
+    color: #e4e5ea;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.65px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    margin-left: 10px;
+    position: relative;
+  }
+  .MobileList li::before {
+    display: inline-block;
+    content: "— ";
+    background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-right: 5px;
+  }
+  .infoPresents {
+    font-weight: 500;
+  }
+  .infoPresentsGradient {
+    background: var(
+      --gradient,
+      linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%)
+    );
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .titleGradient {
+    font-size: 36px;
+    font-weight: 800;
+    background: linear-gradient(92deg, #fcb045, #ff3f78 121.36%);
+  }
+  .tagLine {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .descriptionContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .presentsContainer,
+  .presentsContainerSecond {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+  }
+}
+
+.titleGradient {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: left;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #e4e5ea;
+}
+
+.presentTitle,
+.present {
+  color: #e4e5ea;
+  text-align: right;
+}
+
+.presentTitle {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.present {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.infoPresentsContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.infoPresents {
+  font-size: 18px;
+  color: #e4e5ea;
+}
+.infoPresentsGradient {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@media (min-width: 661px) {
+  .LittleRedBallMobile,
+  .PurpleBallMobile,
+  .PurpleLightMobile,
+  .RedBallMobile,
+  .RedLightMobile {
+    display: none;
+  }
+  .imagesContainer {
+    position: absolute;
+    width: 100vw;
+  }
+  .PurpleBall {
+    position: relative;
+    z-index: 1;
+    top: -632px;
+    left: 743px;
+  }
+  .RedBall {
+    position: relative;
+    z-index: 1;
+    top: -502px;
+    left: -752px;
+  }
+  .LittleRedBall {
+    position: relative;
+    z-index: 1;
+    top: -126px;
+    left: -587px;
+  }
+  .PurpleLight {
+    position: relative;
+    z-index: 1;
+    top: -196px;
+    left: 28px;
+  }
+  .RedLight {
+    position: relative;
+    z-index: 1;
+    top: -808px;
+    left: -187px;
+  }
+}
+@media (max-width: 660px) {
+  .LittleRedBall,
+  .PurpleBall,
+  .PurpleLight,
+  .RedBall,
+  .RedLight {
+    display: none;
+  }
+  .Noise,
+  .PurpleBallMobile,
+  .RedBallMobile,
+  .RedLightMobile,
+  .PurpleLightMobile {
+    position: relative;
+    z-index: 1;
+  }
+
+  .PurpleBallMobile {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    left: 256px;
+    top: -291px;
+    filter: drop-shadow(3px 6px 27px rgba(177, 118, 217, 0.25)) blur(5px);
+  }
+  .RedBallMobile {
+    width: 90px;
+    height: 90px;
+    top: -635px;
+    left: 19px;
+    filter: drop-shadow(3px 6px 27px rgba(223, 125, 125, 0.25));
+  }
+  .PurpleLightMobile {
+    top: -901px;
+    left: -3px;
+  }
+  .RedLightMobile {
+    top: -1349px;
+  }
+}

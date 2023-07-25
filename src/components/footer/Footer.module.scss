@@ -1,0 +1,71 @@
+@media (min-width: 1440px) {
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 124px;
+    width: 1141px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .companyDescription {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    margin-right: 98px;
+  }
+
+  .companyContacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 103px;
+  }
+
+  .title {
+    text-transform: uppercase;
+    color: #656566;
+    margin-bottom: 20px;
+  }
+  .list {
+    font-size: 16px;
+    font-weight: 400;
+    color: #e4e5ea;
+    margin-top: 10px;
+  }
+  .icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+  }
+
+  .copyrightInfoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .copyrightInfo,
+  .copyrightInfoUnderlined {
+    color: var(--light-text, #e4e5ea);
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .copyrightInfoUnderlined {
+    text-decoration-line: underline;
+  }
+}
+
+@media (max-width: 660px) {
+  .footer,
+  .copyrightInfoContainer {
+    display: none;
+  }
+}
